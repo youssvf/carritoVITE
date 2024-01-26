@@ -10,8 +10,8 @@ export default function ArticulosDisponibles({ articulosDisponibles, setArticulo
     const [filter,setFilter]=useState('')
     return (
         <div>
-            <BarraBusqueda filter={filter} setFilter={setFilter}/>
             <h2>Artículos Disponibles</h2>
+            <BarraBusqueda filter={filter} setFilter={setFilter}/>
             <table>
                 <thead>
                     <tr>
